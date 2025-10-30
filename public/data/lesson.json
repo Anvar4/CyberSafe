@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Kiberxavfsizlik nima?",
+    "description": "Kiberxavfsizlik (cybersecurity) - bu raqamli dunyoda axborot va tizimlarni himoya qilishga qaratilgan amaliyot, jarayonlar va texnologiyalarning majmui bo'lib, u kompyuterlar, serverlar, mobil qurilmalar, elektron tizimlar, tarmoqlar va ma'lumotlarning nojo'ya hujumlar, o'g'irlashlar yoki zararlanishdan saqlanishini ta'minlaydi. U kibermajburiyatlar, shu jumladan xakerlik hujumlari, viruslar, fishing, DDoS hujumlari va boshqa tahdidlarga qarshi choralar ko'radi, shuningdek, ma'lumotlar maxfiyligi, yaxlitligi va mavjudligini ta'minlash uchun shifrlash, firewall, antivirus dasturlari, autentifikatsiya va xavfsizlik siyosatlaridan foydalanadi. Bugungi kunda kiberxavfsizlik shaxsiy foydalanuvchilardan tortib korxonalar, hukumatlar va xalqaro tashkilotlargacha bo'lgan barcha darajalarda muhim ahamiyatga ega, chunki kibertahdidlar tobora murakkablashib, iqtisodiy va milliy xavfsizlikka jiddiy zarar yetkazishi mumkin.",
+    "youtubeLink": "https://www.youtube.com/embed/unTavenYgDo?si=-iNCinHxXxt4V0ao"
+  },
+  {
+    "id": 2,
+    "title": "CIA uchligi",
+    "description": "CIA uchligi (CIA triad) - bu kiberxavfsizlikning asosiy tamoyili bo'lib, axborot va tizimlarning himoyasini ta'minlash uchun uchta asosiy komponentdan iborat: maxfiylik (Confidentiality), yaxlitlik (Integrity) va mavjudlik (Availability), bu uchlik axborotni ruxsatsiz kirishdan himoya qilish, ma'lumotlarning o'zgartirilmasligini va buzilmasligini kafolatlash, shuningdek, zarur vaqtda tizim va resurslarga kirish imkoniyatini saqlab qolishni nazarda tutadi, chunki maxfiylik ma'lumotlarning faqat ruxsat etilgan shaxslar tomonidan ko'rilishi va ishlatilishini ta'minlaydi (masalan, shifrlash va autentifikatsiya orqali), yaxlitlik axborotning to'g'ri va o'zgartirilmagan holatda qolishini nazorat qiladi (hash funksiyalari va raqamli imzolar yordamida), mavjudlik esa tizimlarning doimiy ishlashi va DDoS hujumlariga qarshi chora-tadbirlar orqali ta'minlanadi, bu model kiberxavfsizlik siyosatlarini shakllantirishda asosiy rol o'ynaydi va ko'plab standartlar, masalan, ISO 27001 va NIST ramkalarida qo'llaniladi, chunki ushbu uchlikni buzilishi tashkilotlar uchun jiddiy zararlar, shu jumladan moliyaviy yo'qotishlar va obro'ga putur yetkazishi mumkin.",
+    "youtubeLink": "https://www.youtube.com/embed/tAzT4h0Pwt0?si=4zaYu0209LrmqTrv"
+  },
+  {
+    "id": 3,
+    "title": "Kiberxavfsizlik vazifalari",
+    "description": "Kiberxavfsizlik vazifalari axborot va tizimlarning himoyasini ta'minlashga qaratilgan bo'lib, ular orasida tahdidlarni oldindan baholash va risklarni tahlil qilish, xavfsizlik siyosatlari va standartlarini ishlab chiqish, firewall, antivirus va shifrlash kabi himoya vositalarini o'rnatish va nazorat qilish, tarmoq va tizimlarning doimiy monitoringini amalga oshirish, hujumlar sodir bo'lganda tez javob berish va insidentlarni tekshirish, ma'lumotlarning zaxiralanishi va tiklanishini ta'minlash, foydalanuvchilarni o'qitish va xavfsizlik haqida xabardor qilish, shuningdek, qonun va standartlarga muvofiqlikni tekshirish kiradi, chunki bu vazifalar tashkilotlarning kiberxavfsizligini mustahkamlashga yordam beradi va potentsial zararlarni minimallashtiradi, masalan, NIST yoki ISO 27001 ramkalariga asoslangan holda amalga oshiriladi, bu esa shaxsiy va korporativ darajada muhimdir.",
+    "youtubeLink": "https://www.youtube.com/embed/JA5vwMW18io?si=zAa35ktkBx_Wt1me"
+  },
+	{
+		"id": 4,
+		"title": " Kiberxavfsizlik vazifalari (davomi)",
+		"description": "Kiberxavfsizlikning davomi sifatida, uning asosiy tahdidlari orasida malware (zararli dasturlar), ransomware (ma'lumotlar shifrlash va to'lov talab qilish), phishing (foydalanuvchilarni aldash orqali ma'lumot o'g'irlash), insider threats (ichki xodimlarning xavfsizlik buzilishi) va advanced persistent threats (uzoq muddatli murakkab hujumlar) kiradi, bu tahdidlarga qarshi choralar sifatida muntazam yangilanishlar, kuchli parollar, ikki faktorli autentifikatsiya, ma'lumotlar shifrlashi va AI asosidagi monitoring tizimlaridan foydalanish tavsiya etiladi, chunki bugungi kunda IoT qurilmalari va bulutli xizmatlarning keng tarqalishi bilan kiberxavfsizlik yanada murakkablashmoqda, masalan, GDPR yoki CCPA kabi qonunlar muvofiqligini ta'minlash zarur, bu esa tashkilotlarga millionlab dollar zararlarning oldini olishga yordam beradi va shaxsiy hayotda esa oddiy qoidalarga rioya qilish orqali shaxsiy ma'lumotlar himoyasini mustahkamlash mumkin.",
+		"youtubeLink": "https://www.youtube.com/embed/GSdt1YE6kXo?si=P9FgINd1JWtZmPxZ"
+	},
+	{
+		"id": 5,
+		"title": " Kiberhujumlar",
+		"description": "Kiber hujumlar - bu raqamli tizimlar, tarmoqlar va ma'lumotlarga qarshi nojo'ya harakatlar bo'lib, ular orasida DDoS hujumlari (tarmoqni yuklama orqali ishlamay qo'yish), phishing (foydalanuvchilarni aldash va shaxsiy ma'lumotlarni o'g'irlash), malware (viruslar, troyanlar va spyware orqali zarar yetkazish), ransomware (ma'lumotlarni shifrlash va to'lov talab qilish), SQL injection (veb-saytlardagi zaifliklardan foydalanish), man-in-the-middle (aloqa kanallarini tinglash va o'zgartirish) va zero-day exploits (yangi zaifliklarni ishlatish) kiradi, bu hujumlar shaxsiy foydalanuvchilardan tortib korxonalar va hukumatlarga qaratilgan bo'lib, ularni amalga oshiruvchilar xakerlar, kibermajburiyat guruhlari yoki hatto davlatlar bo'lishi mumkin, natijada moliyaviy yo'qotishlar, ma'lumotlar o'g'irlash, reputatsiya zararlanishi va hatto milliy xavfsizlikka tahdid yuzaga keladi, chunki bugungi kunda AI va IoT texnologiyalari bilan hujumlar yanada murakkablashmoqda, ularning oldini olish uchun kuchli himoya choralarini qo'llash, muntazam auditlar va xabardorlikni oshirish zarur.",
+		"youtubeLink": "https://www.youtube.com/embed/9Il1tlODnVA?si=Wsgo7uPWj1BPmVAc"
+	},
+	{
+		"id": 6,
+		"title": "Kiberhujum turlari",
+		"description": "Kiberhujum turlari turli xil bo'lib, ular orasida DDoS hujumlari (Distributed Denial of Service - tarmoqni yuklama orqali xizmatdan chiqarish), phishing (foydalanuvchilarni aldash va shaxsiy ma'lumotlarni o'g'irlash), malware (zararli dasturlar, masalan, viruslar, troyanlar va spyware), ransomware (ma'lumotlarni shifrlash va to'lov talab qilish), SQL injection (veb-ilovalardagi zaifliklardan foydalanish va ma'lumotlar bazasiga hujum qilish), man-in-the-middle (MITM - aloqa kanallarini tinglash va ma'lumotlarni o'zgartirish), zero-day exploits (yangi, hali tuzatilmagan zaifliklarni ishlatish), brute force (parollarni sinab ko'rish orqali kirish), social engineering (odamlarni aldash orqali ma'lumot olish) va advanced persistent threats (APT - uzoq muddatli murakkab hujumlar, ko'pincha davlatlar yoki katta guruhlar tomonidan) kiradi, bu turlar shaxsiy qurilmalardan tortib korporativ tarmoqlar va milliy infratuzilmalarga qaratilgan bo'lib, ularni amalga oshirish uchun xakerlar texnologiya va insoniy zaifliklardan foydalanadilar, natijada moliyaviy zarar, ma'lumot yo'qotish va xavfsizlik buzilishi yuzaga keladi, shuning uchun oldini olish uchun kuchli himoya choralarini, masalan, firewall, antivirus va o'qitishni qo'llash zarur.",
+		"youtubeLink": "https://www.youtube.com/embed/MeBqe8WK9zc?si=O0Jc8uICasjmjNGA"
+	},
+	{
+		"id": 7,
+		"title": "Kiber hujumlar turlari (davomi)",
+		"description": "Kiberhujum turlarining davomi sifatida, ular orasida drive-by downloads (foydalanuvchi zararlangan veb-saytga kirganda avtomatik yuklanadigan malware), watering hole attacks (tez-tez tashrif buyuriladigan saytlarni buzib, foydalanuvchilarga hujum qilish), spear phishing (maqsadli shaxslarga maxsus tayyorlangan aldovchi xatlar), whaling (yuqori lavozimli rahbarlarga qaratilgan spear phishing turi), botnets (zararlangan qurilmalardan iborat tarmoq orqali katta hujumlar, masalan, DDoS uchun), cryptojacking (foydalanuvchi qurilmasini yashirincha kriptovalyuta qazib olish uchun ishlatish), supply chain attacks (dasturiy ta'minot yoki apparat ta'minot zanjiridagi zaifliklardan foydalanish, masalan, SolarWinds hujumi), insider attacks (ichki xodimlar tomonidan maqsadli buzilishlar), fileless malware (fayllarsiz ishlaydigan zararli kodlar, masalan, xotirada faoliyat yuritish) va IoT attacks (Internet of Things qurilmalarini buzish, masalan, smart uy tizimlariga hujum) kiradi, bu turlar texnologiyalarning rivojlanishi bilan yanada xilma-xil bo'lib bormoqda va ko'pincha bir-biri bilan birlashtirilgan holda qo'llaniladi, natijada korxonalar uchun millionlab dollar zarar va ma'lumotlar oqishi yuzaga keladi, shuning uchun oldini olish uchun muntazam zaiflik skanerlash, xavfsizlik o'qituvlari va AI asosidagi himoya tizimlaridan foydalanish muhimdir.",
+		"youtubeLink": "https://www.youtube.com/embed/xAJJuvioU5c?si=Iyya0ZREI7KQ2Ds2"
+	},
+	{
+		"id": 8,
+		"title": "Operatsion tizimda foydalanuvchilarni boshqarish",
+		"description": "Operatsion tizimda foydalanuvchilarni boshqarish - bu operatsion tizim (OT) resurslari va ma'lumotlariga kirishni nazorat qilish, foydalanuvchilarning hisoblarini yaratish, o'zgartirish, o'chirish va ularning huquqlarini belgilash jarayonlarini o'z ichiga olgan muhim komponent bo'lib, u xavfsizlik, resurslarni taqsimlash va tizim barqarorligini ta'minlaydi, masalan, Linux va Unix tizimlarida useradd, usermod, userdel buyruqlari orqali yangi foydalanuvchi yaratish, parol o'rnatish (passwd) va guruhlarga qo'shish (groupadd, usermod -aG) amalga oshiriladi, Windowsda esa Active Directory yoki lokal boshqaruv vositalari (lusrmgr.msc) orqali foydalanuvchilar qo'shiladi, huquqlar (Administrator, User, Guest) va siyosatlar (Group Policy) orqali cheklanadi, bu jarayon autentifikatsiya (login va parol), avtorizatsiya (huquqlar va ruxsatlar) va hisobot (audit logging) tamoyillariga asoslanadi, chunki to'g'ri boshqaruv tizimni ichki va tashqi tahdidlardan himoya qiladi, masalan, sudo yoki elevation mexanizmlari orqali vaqtinchalik yuqori huquqlar berish, shuningdek, MFA (multi-factor authentication) va LDAP kabi markazlashgan tizimlar orqali korporativ muhitda kengaytiriladi, natijada resurslar samarali taqsimlanadi va ma'lumotlar maxfiyligi saqlanadi, bu esa shaxsiy kompyuterlardan tortib server va bulutli tizimlargacha qo'llaniladi.",
+		"youtubeLink": "https://www.youtube.com/embed/O_zt_q5xnDk?si=16tQhP-mpian-4WT"
+	},
+	{
+		"id": 9,
+		"title": "Fayllarga bo'lgan ruxsatlar",
+		"description": "Fayllarga bo'lgan ruxsatlar - bu operatsion tizimlarda fayllar va kataloglarga kirish huquqlarini nazorat qilish mexanizmi bo'lib, u foydalanuvchilarning fayllarni o'qish, yozish yoki bajarish imkoniyatlarini belgilaydi va xavfsizlikni ta'minlashda muhim rol o'ynaydi, masalan, Linux va Unix tizimlarida chmod buyruqi orqali ruxsatlar o'rnatiladi va ular owner (egasi), group (guruh) va others (boshqalar) uchun read (r - o'qish), write (w - yozish) va execute (x - bajarish) sifatida ifodalanadi, raqamli ko'rinishda esa 777 (to'liq ruxsat) yoki 644 (standart fayl ruxsatlari) kabi ko'rsatiladi, Windowsda esa NTFS fayl tizimida Access Control List (ACL) orqali ruxsatlar boshqariladi va File Explorer yoki icacls buyruqi yordamida Full Control, Modify, Read & Execute kabi huquqlar beriladi, bu jarayon autentifikatsiya va avtorizatsiya tamoyillariga asoslanadi, chunki noto'g'ri ruxsatlar fayllarni nojo'ya o'zgartirish yoki o'g'irlashga olib kelishi mumkin, shuning uchun minimal huquq tamoyili (principle of least privilege) qo'llaniladi, masalan, sudo yoki elevation orqali vaqtinchalik yuqori ruxsatlar berish, shuningdek, SELinux yoki AppArmor kabi qo'shimcha himoya tizimlari orqali yanada nozik nazorat ta'minlanadi, natijada ma'lumotlar maxfiyligi va tizim barqarorligi saqlanadi, bu esa shaxsiy kompyuterlardan tortib server va bulutli muhitlargacha qo'llaniladi.",
+		"youtubeLink": "https://www.youtube.com/embed/BR-_-1NITrM?si=nFXbb_ziQH2z-5WV"
+	},
+	{
+		"id": 10,
+		"title": "Ma'lumotlarni maxfiylashtirish",
+		"description": "Ma'lumotlarni maxfiylashtirish - bu kiberxavfsizlikning muhim qismi bo'lib, ma'lumotlarni ruxsatsiz kirishdan himoya qilish uchun shifrlash (encryption) jarayonidan foydalanishni nazarda tutadi, u ma'lumotlarni maxfiy kalitlar yordamida o'zgartirib, faqat ruxsat etilgan shaxslar tomonidan o'qilishi mumkin bo'lgan shaklga keltiradi, masalan, simmetrik shifrlash (AES algoritmi, bitta kalit bilan shifrlash va deshifrlash) va assimetrik shifrlash (RSA, ikkita kalit: ochiq va maxfiy) turlari mavjud, bu jarayon fayllar, elektron pochta, tarmoq aloqalari (HTTPS, SSL/TLS) va saqlash qurilmalarida qo'llaniladi, chunki maxfiylik buzilishi ma'lumotlar o'g'irlashiga olib kelishi mumkin, shuning uchun kuchli kalitlar, muntazam yangilanishlar va standartlar (masalan, GDPR muvofiqligi) orqali ta'minlanadi, natijada shaxsiy va korporativ ma'lumotlar himoyasi mustahkamlanadi va potentsial zararlarni minimallashtiradi.",
+		"youtubeLink": "https://www.youtube.com/embed/UhSSY7HToZk?si=DkCaoY987B5rArDs"
+	},
+	{
+		"id": 11,
+		"title": "Firewall",
+		"description": "Firewall - bu kiberxavfsizlikning muhim elementi bo'lib, tarmoq trafigini nazorat qilish va nojo'ya kirishlarni bloklash uchun ishlatiladigan dasturiy yoki apparat vosita hisoblanadi, u ichki tarmoq va tashqi internet o'rtasida to'siq yaratib, ruxsat etilgan paketlarni o'tkazib, tahdidli hujumlarni (masalan, DDoS, malware yoki ruxsatsiz kirish) to'xtatadi, masalan, stateful inspection (holatni kuzatish), proxy firewall yoki next-generation firewall (NGFW) turlari mavjud bo'lib, ular IP manzillar, portlar, protokollar va hatto ilovalar darajasida filtrlaydi, bu jarayon xavfsizlik siyosatlariga asoslanadi va Windows Firewall, pfSense yoki Cisco ASA kabi tizimlarda qo'llaniladi, chunki to'g'ri sozlangan firewall tarmoqni himoya qiladi, ammo uni o'tkazib yuborish usullari (masalan, VPN orqali) mavjud, shuning uchun muntazam yangilanish va monitoring zarur, natijada korxonalar va shaxsiy foydalanuvchilar uchun ma'lumotlar va resurslar xavfsizligi ta'minlanadi.",
+		"youtubeLink": "https://www.youtube.com/embed/AEHK_2RT30c?si=zvDqTb2kliF-EtqN"
+	},
+	{
+		"id": 12,
+		"title": "Brauzerlarni himoyalash",
+		"description": "Brauzerlarni himoyalash - bu kiberxavfsizlikning muhim qismi bo'lib, veb-brauzerlar (masalan, Chrome, Firefox, Edge) orqali sodir bo'ladigan tahdidlarni oldini olishga qaratilgan choralar majmui hisoblanadi, u phishing hujumlaridan, malware yuklanishidan, tracking cookie-lardan va zaifliklardan himoya qiladi, masalan, brauzer yangilanishlarini muntazam o'rnatish, HTTPS faqatgina saytlarga kirishni ta'minlash (HTTPS Everywhere kengaytmasi orqali), ad-blocker va anti-tracking vositalaridan (uBlock Origin yoki Privacy Badger) foydalanish, kuchli parollar va ikki faktorli autentifikatsiya (2FA) qo'llash, shuningdek, incognito rejimida maxfiy ma'lumotlarni saqlamaslik va sandboxing texnologiyasi orqali zararli kodni izolyatsiya qilish kiradi, chunki brauzerlar orqali ko'plab hujumlar (masalan, drive-by downloads yoki cross-site scripting - XSS) sodir bo'ladi, natijada shaxsiy ma'lumotlar o'g'irlashining oldini olish va xavfsiz internet surfingini ta'minlash mumkin, bu esa shaxsiy foydalanuvchilardan tortib korxonalar darajasida muhimdir.",
+		"youtubeLink": "https://www.youtube.com/embed/jZPfMZrkS6k?si=x4FDbvkqZA3TDcw6"
+	},
+	{
+		"id": 13,
+		"title": "Ethical hacking",
+		"description": "Ethical hacking, shuningdek, white-hat hacking yoki penetration testing deb ataladi, bu kompyuter tizimlari, tarmoqlar yoki ilovalarga qarshi kibertahdidlarni taqlid qilish orqali zaifliklarni aniqlash va ularni yaxshilash maqsadida qonuniy va ruxsat etilgan amaliyot bo'lib, u zararli xakerlar (black-hat hackers) tomonidan ishlatiladigan vositalar va texnikalardan foydalanadi, masalan, Nmap orqali ochiq portlarni skanerlash, dasturiy zaifliklarni ekspluatatsiya qilish yoki ijtimoiy muhandislik testlari, ammo har doim tizim egasining aniq ruxsati bilan va shartnoma doirasida amalga oshiriladi, bu jarayon OWASP Testing Guide yoki NIST yo'riqnomalariga asoslanadi va Certified Ethical Hacker (CEH), CompTIA PenTest+ yoki OSCP kabi sertifikatlar orqali etik standartlarga rioya qilishni talab qiladi, shu jumladan maxfiylik, oshkor qilmaslik va topilgan zaifliklarni mas'uliyatli bildirish, bu soha moliya, sog'liqni saqlash va hukumat tarmoqlarida ma'lumotlar buzilishini oldini olish uchun muhim bo'lib, u reconnaissance (ma'lumot yig'ish), scanning (zaifliklarni qidirish), gaining access (kirish olish), maintaining access (doimiy mavjudlik) va covering tracks (izlarni yashirish) bosqichlarini o'z ichiga oladi, natijada batafsil hisobotlar va himoya choralarini taklif qilish orqali real tahdidlarga, masalan, ransomware yoki phishingga qarshi mustahkamlikni oshiradi.",
+		"youtubeLink": "https://www.youtube.com/embed/vmCyoagoXbM?si=fkbsxlQu0gFmJRV3"
+	},
+	{
+		"id": 14,
+		"title": "Pentesting turlari",
+		"description": "Pentesting turlari - bu etik xakerlikning muhim qismi bo'lib, tizimlarning zaifliklarini aniqlash uchun turli yondashuvlarga asoslanadi, ular orasida black box pentesting (tashqi hujumchi sifatida, tizim haqida hech qanday ma'lumotsiz test qilish), white box pentesting (to'liq ma'lumotlar bilan, ichki kod va arxitekturani tahlil qilish), gray box pentesting (qisman ma'lumotlar bilan, real hujumchi holatini taqlid qilish), external pentesting (tashqi aktivlarga, masalan, veb-saytlar va serverlarga qaratilgan), internal pentesting (ichki tarmoqdan, insider threatsni tekshirish), web application pentesting (veb-ilovalardagi zaifliklarni, masalan, SQL injection yoki XSSni aniqlash), network pentesting (tarmoq infratuzilmasini, portlar va firewalllarni test qilish), wireless pentesting (Wi-Fi tarmoqlarini va simsiz qurilmalarni buzilishdan himoya qilish), social engineering pentesting (odamlarni aldash orqali zaifliklarni aniqlash, masalan, phishing testlari) va physical pentesting (jismoniy kirishni, masalan, ofisga kirib tizimlarga hujum qilishni taqlid qilish) kiradi, bu turlar tashkilotlarning xavfsizligini baholashda qo'llaniladi va OWASP yoki NIST standartlariga asoslanadi, natijada topilgan zaifliklarni bartaraf etish orqali real kibertahdidlarga qarshi mustahkamlikni oshiradi, chunki har bir tur maqsad va muhitga qarab tanlanadi.",
+		"youtubeLink": "https://www.youtube.com/embed/GSggoEHWoxQ?si=aEHG5P5SwsZ3OVUE"
+	},
+	{
+		"id": 15,
+		"title": "Virtualizatsiya texnologiyasi",
+		"description": "Virtualizatsiya — bu bitta jismoniy resursni, masalan, server, operatsion tizim, saqlash qurilmasi yoki tarmoq resursini koʻplab mantiqiy (yoki virtual) resurslarga ajratish yoki bitta mantiqiy resursni bir nechta jismoniy resurslardan yaratish jarayonidir.",
+		"youtubeLink": "https://www.youtube.com/embed/bjtSZMODEMk?si=IR3YEeqaAQyT_U9a"
+	},
+	{
+		"id": 16,
+		"title": " Kali Linux operatsion tizimlari",
+		"description": "Kali Linux - bu kiberxavfsizlik mutaxassislari, axloqiy xakerlar (ethical hackers) va penetratsion testchilar (penetration testers) uchun maxsus ishlab chiqilgan Debian asosidagi bepul va ochiq kodli Linux operatsion tizimidir. Bu operatsion tizimning asosiy maqsadi - foydalanuvchiga murakkab xavfsizlik vazifalarini bajarish uchun zarur bo'lgan barcha vositalarni bir joyda taqdim etishdir. Kali Linux xavfsizlikni audit qilish (security auditing), penetratsion testlar (penetration testing), raqamli sud ekspertizasi (digital forensics) va teskari muhandislik (reverse engineering) kabi sohalarda keng qo'llaniladi.",
+		"youtubeLink": "https://www.youtube.com/embed/XBj0IIOweIk?si=mdg8D2RmIWyWr-Eh"
+	},
+	{
+		"id": 17,
+		"title": "Viruslar ",
+		"description": "Kompyuter virusi — bu oʻzini koʻpaytirish va boshqa dasturlarga yoki kompyuter tizimlarining ishiga zarar yetkazish maqsadida yaratilgan zararli dastur (malware) turidir. Uning nomi biologik viruslarga oʻxshashligi sababli shunday ataladi, chunki u ham mezbon dasturga (faylga) qoʻshilib oladi va oʻzini koʻpaytirish orqali tarqaladi. Viruslar asosan quyidagicha ishlaydi: ular biror ijro etiladigan fayl (masalan, .exe yoki hujjat) bilan birga kompyuterga kirib keladi. Foydalanuvchi bu faylni ishga tushirganda, virus kodi faollashadi. Faollashgandan soʻng, virus oʻzining nusxalarini kompyuterning boshqa dasturlariga, operatsion tizimning muhim qismlariga yoki boshqa tizim resurslariga yozishni boshlaydi.",
+		"youtubeLink": "https://www.youtube.com/embed/D1wnIoQsOEs?si=3ebqisqY9d1DWuul"
+	},
+	{
+		"id": 18,
+		"title": "Antivirus dasturlari (1-qism) ",
+		"description": "Antivirus dasturlari — bu kompyuter tizimlarini, serverlarni va tarmoqlarni viruslar, troyanlar, (worms), josus dasturlar (spyware) va boshqa turdagi zararli dasturlar (malware) kabi kiberxavflardan himoya qilish uchun mo'ljallangan maxsus dasturiy ta'minotdir. Asosiy vazifasi zararli kodlarning kompyuterga kirib kelishini oldingini olish, mavjud zararli dasturlarni aniqlash, ularni zararsizlantirish (karantin qilish yoki o'chirish) va bartaraf etishdan iborat.",
+		"youtubeLink": "https://www.youtube.com/embed/6MywbJGudCI?si=F4QDSn2KwfdR1XPC"
+	},
+	{
+		"id": 19,
+		"title": "haqida qismlarga bo'lmasdan umumiy tushunchalaring malumot ber",
+		"description": "Antivirus dasturlarining ikkinchi qismidagi asosiy tushunchalar ularning zamonaviy funksiyalari va himoya mexanizmlariga bag'ishlanadi, chunki hozirgi kunda ular nafaqat viruslarni, balki keng qamrovli kiberxavflarni ham bartaraf etadi. Zamonaviy antivirus dasturlari endi oddiy viruslarni aniqlash vositasi emas, balki keng ko'lamli himoya yechimlari (Internet Security yoki Total Security suitelar) hisoblanadi. Ular o'z ichiga quyidagi muhim qo'shimcha komponentlarni oladi:",
+		"youtubeLink": "https://www.youtube.com/embed/FcTly8Y1q4E?si=akiTq54VguouIWCT"
+	},
+	{
+		"id": 20,
+		"title": "Tarmoqda himoyalanish",
+		"description": "Tarmoqda himoyalanish (yoki tarmoq xavfsizligi) — bu kompyuter tarmoqlari va ularga ulangan barcha qurilmalar, dasturiy ta'minot va ma'lumotlarni ruxsatsiz kirish, noto'g'ri foydalanish, o'zgartirish, yo'q qilish yoki ularning buzilishiga olib keladigan har qanday tahdiddan himoya qilish uchun qabul qilingan siyosatlar, jarayonlar va texnologiyalar majmuidir.",
+		"youtubeLink": "https://www.youtube.com/embed/u39nfFbu66g?si=DsLr1x42FkShlIIM"
+	}
+]
