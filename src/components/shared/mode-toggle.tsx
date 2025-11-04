@@ -41,19 +41,19 @@ export function ModeToggle() {
             onClick={() => setTheme('light')}
             className="cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition"
           >
-            ☀️ Light
+            ☀️ Kunduzgi
           </DropdownMenuItem>
           <DropdownMenuItem
             onClick={() => setTheme('dark')}
             className="cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition"
           >
-            🌙 Dark
+            🌙 Tungi
           </DropdownMenuItem>
           <DropdownMenuItem
             onClick={() => setTheme('system')}
             className="cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition"
           >
-            💻 System
+            💻 Sistema
           </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>

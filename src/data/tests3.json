@@ -1,0 +1,327 @@
+[
+  {
+    "id": 1,
+    "level": "talaba",
+    "topic": "Kiberxavfsizlik asoslari",
+    "question": "Kompyuter tarmoqlarida xavfsizlikni ta’minlashning birinchi qadami nima?",
+    "options": {
+      "A": "Parollarni o‘chirish",
+      "B": "Xavfsizlik siyosatini ishlab chiqish",
+      "C": "Serverni o‘chirish",
+      "D": "Internet tezligini kamaytirish"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 2,
+    "level": "talaba",
+    "topic": "Zararli dasturlar",
+    "question": "Trojan dasturi qanday ishlaydi?",
+    "options": {
+      "A": "Fayllarni shifrlaydi",
+      "B": "O‘zini foydali dastur sifatida ko‘rsatadi, ammo zarar keltiradi",
+      "C": "Tarmoqni bloklaydi",
+      "D": "Kompyuterni tezlashtiradi"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 3,
+    "level": "talaba",
+    "topic": "Axborot xavfsizligi",
+    "question": "Kompyuter viruslari asosan qayer orqali tarqaladi?",
+    "options": {
+      "A": "Elektron pochta va fayl almashinuvi orqali",
+      "B": "Printer orqali",
+      "C": "Monitor orqali",
+      "D": "Skaner orqali"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 4,
+    "level": "talaba",
+    "topic": "Tarmoq xavfsizligi",
+    "question": "Port skanerlash nima maqsadda ishlatiladi?",
+    "options": {
+      "A": "Serverda ochiq portlarni aniqlash uchun",
+      "B": "Viruslarni topish uchun",
+      "C": "Internet tezligini o‘lchash uchun",
+      "D": "Shifrlash uchun"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 5,
+    "level": "talaba",
+    "topic": "Kiberhujum turlari",
+    "question": "Keylogger dasturi nima qiladi?",
+    "options": {
+      "A": "Tarmoqni himoya qiladi",
+      "B": "Klaviatura bosishlarini yozib oladi",
+      "C": "Fayllarni zaxiralaydi",
+      "D": "Parollarni shifrlaydi"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 6,
+    "level": "talaba",
+    "topic": "Tarmoq xavfsizligi",
+    "question": "IPsec protokoli qayerda ishlatiladi?",
+    "options": {
+      "A": "Video tahrirlashda",
+      "B": "Tarmoqdagi ma’lumotlarni shifrlashda",
+      "C": "Audio fayllarni siqishda",
+      "D": "Ma’lumot bazasini tiklashda"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 7,
+    "level": "talaba",
+    "topic": "Internet xavfsizligi",
+    "question": "Cookie fayllarining asosiy vazifasi nima?",
+    "options": {
+      "A": "Foydalanuvchini kuzatish va sessiyani saqlash",
+      "B": "Viruslarni tozalash",
+      "C": "Saytni shifrlash",
+      "D": "Serverni tiklash"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 8,
+    "level": "talaba",
+    "topic": "Autentifikatsiya",
+    "question": "Foydalanuvchini kimligini aniqlash jarayoni nima deb ataladi?",
+    "options": {
+      "A": "Autentifikatsiya",
+      "B": "Avtorizatsiya",
+      "C": "Kriptografiya",
+      "D": "Zaxiralash"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 9,
+    "level": "talaba",
+    "topic": "Axborot xavfsizligi",
+    "question": "Ma’lumotlarning butunligini ta’minlash nimani anglatadi?",
+    "options": {
+      "A": "Ma’lumotlar o‘zgarmasligini kafolatlash",
+      "B": "Ma’lumotlarni o‘chirish",
+      "C": "Ma’lumotlarni siqish",
+      "D": "Parollarni saqlash"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 10,
+    "level": "talaba",
+    "topic": "Kiberxavfsizlik asoslari",
+    "question": "Anonim tarmoq (Tor) nima uchun ishlatiladi?",
+    "options": {
+      "A": "Internetda maxfiylikni ta’minlash uchun",
+      "B": "Serverlarni bloklash uchun",
+      "C": "Fayllarni siqish uchun",
+      "D": "Internet tezligini oshirish uchun"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 11,
+    "level": "talaba",
+    "topic": "Kiberxavfsizlik siyosati",
+    "question": "Kiberxavfsizlikda 'patch' nima?",
+    "options": {
+      "A": "Operatsion tizim uchun xavfsizlik yangilanishi",
+      "B": "Zararli fayl",
+      "C": "Parol generatori",
+      "D": "Internet protokoli"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 12,
+    "level": "talaba",
+    "topic": "Zararli dasturlar",
+    "question": "Rootkit dasturi nima qiladi?",
+    "options": {
+      "A": "Tizimga yashirin kirish imkonini beradi",
+      "B": "Ma’lumotlarni zaxiralaydi",
+      "C": "Parollarni shifrlaydi",
+      "D": "Antivirusni yangilaydi"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 13,
+    "level": "talaba",
+    "topic": "Tarmoq xavfsizligi",
+    "question": "HTTPS dagi 'S' harfi nimani bildiradi?",
+    "options": {
+      "A": "Security (xavfsizlik)",
+      "B": "Service",
+      "C": "System",
+      "D": "Speed"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 14,
+    "level": "talaba",
+    "topic": "Kiberhujum turlari",
+    "question": "Spoofing hujumi qanday amalga oshiriladi?",
+    "options": {
+      "A": "Soxta manbadan ma’lumot yuborish orqali",
+      "B": "Serverni o‘chirib tashlash orqali",
+      "C": "Fayllarni siqish orqali",
+      "D": "Ma’lumotlarni shifrlash orqali"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 15,
+    "level": "talaba",
+    "topic": "Axborot xavfsizligi",
+    "question": "Antivirus dasturi nima qiladi?",
+    "options": {
+      "A": "Kompyuterni viruslardan himoya qiladi",
+      "B": "Fayllarni shifrlaydi",
+      "C": "Internet tezligini oshiradi",
+      "D": "Operatsion tizimni o‘rnatadi"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 16,
+    "level": "talaba",
+    "topic": "Tarmoq xavfsizligi",
+    "question": "WPA2 protokoli qayerda qo‘llaniladi?",
+    "options": {
+      "A": "Wi-Fi tarmoqlarida xavfsizlikni ta’minlash uchun",
+      "B": "Mobil aloqa tarmoqlarida",
+      "C": "Elektron pochta uchun",
+      "D": "DNS serverlarida"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 17,
+    "level": "talaba",
+    "topic": "Internet xavfsizligi",
+    "question": "QR kod orqali phishing hujumi qanday amalga oshiriladi?",
+    "options": {
+      "A": "Soxta havolaga yo‘naltirish orqali",
+      "B": "Tarmoqni shifrlash orqali",
+      "C": "Serverni bloklash orqali",
+      "D": "Parolni o‘zgartirish orqali"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 18,
+    "level": "talaba",
+    "topic": "Axborot himoyasi",
+    "question": "Data breach atamasi nimani anglatadi?",
+    "options": {
+      "A": "Ma’lumotlarning ruxsatsiz tarqalishi yoki o‘g‘irlanishi",
+      "B": "Ma’lumotlarni zaxiralash",
+      "C": "Ma’lumotni siqish",
+      "D": "Ma’lumotni o‘chirish"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 19,
+    "level": "talaba",
+    "topic": "Kiberhujum turlari",
+    "question": "SQL Injection hujumi qaysi qatlamda sodir bo‘ladi?",
+    "options": {
+      "A": "Ma’lumotlar bazasi qatlamida",
+      "B": "Tarmoq qatlamida",
+      "C": "Fizik qatlamda",
+      "D": "Transport qatlamida"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 20,
+    "level": "talaba",
+    "topic": "Tarmoq xavfsizligi",
+    "question": "DNS spoofing nima?",
+    "options": {
+      "A": "Soxta domen orqali foydalanuvchini chalg‘itish",
+      "B": "DNS serverini yangilash",
+      "C": "IP manzilni o‘zgartirish",
+      "D": "Tarmoqni tezlashtirish"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 21,
+    "level": "talaba",
+    "topic": "Kiberxavfsizlik asoslari",
+    "question": "Hash funksiyasi nima uchun ishlatiladi?",
+    "options": {
+      "A": "Ma’lumotlarni o‘zgarmas identifikatorga aylantirish uchun",
+      "B": "Ma’lumotni shifrlash uchun",
+      "C": "Faylni o‘chirish uchun",
+      "D": "Internetni tezlashtirish uchun"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 22,
+    "level": "talaba",
+    "topic": "Axborot xavfsizligi",
+    "question": "Brendmauer so‘zi nimani anglatadi?",
+    "options": {
+      "A": "Firewall – tarmoqni himoya qiluvchi tizim",
+      "B": "Antivirus dasturi",
+      "C": "Parol boshqaruvchisi",
+      "D": "Ma’lumot bazasi turi"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 23,
+    "level": "talaba",
+    "topic": "Kiberhujum turlari",
+    "question": "Cross-site scripting (XSS) hujumi nimalarga ta’sir qiladi?",
+    "options": {
+      "A": "Veb-sahifa foydalanuvchi interfeysiga",
+      "B": "Fayl tizimiga",
+      "C": "DNS serveriga",
+      "D": "IP manzillarga"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 24,
+    "level": "talaba",
+    "topic": "Tarmoq xavfsizligi",
+    "question": "Port 443 odatda qaysi protokol uchun ishlatiladi?",
+    "options": {
+      "A": "HTTPS",
+      "B": "FTP",
+      "C": "SMTP",
+      "D": "DNS"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 25,
+    "level": "talaba",
+    "topic": "Axborot himoyasi",
+    "question": "Kiberxavfsizlikda 'incident' atamasi nimani bildiradi?",
+    "options": {
+      "A": "Xavfsizlikka tahdid yoki buzilish holati",
+      "B": "Faylni siqish jarayoni",
+      "C": "Antivirus o‘rnatish bosqichi",
+      "D": "Zaxira nusxa yaratish"
+    },
+    "correct": "A"
+  }
+]

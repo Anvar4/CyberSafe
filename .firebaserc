@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "yugur-uz-2"
-  }
+    "default": "yugur-uz-2",
+    "prod": "cybersafeuz"
+  },
+  "targets": {},
+  "etags": {}
 }

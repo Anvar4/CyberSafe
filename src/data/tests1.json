@@ -1,0 +1,327 @@
+[
+  {
+    "id": 1,
+    "level": "talaba",
+    "topic": "Texnik himoya va xavfsizlik protokollari",
+    "question": "Quyidagi protokollardan qaysi biri ma'lumotlarni shifrlash uchun ishlatiladi?",
+    "options": {
+      "A": "HTTP",
+      "B": "HTTPS",
+      "C": "FTP",
+      "D": "SMTP"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 2,
+    "level": "talaba",
+    "topic": "Tarmoq xavfsizligi",
+    "question": "Firewall nima vazifani bajaradi?",
+    "options": {
+      "A": "Tarmoq tezligini oshiradi",
+      "B": "Viruslarni o‘chiradi",
+      "C": "Tarmoqdagi kirishni nazorat qiladi",
+      "D": "Fayllarni siqadi"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 3,
+    "level": "talaba",
+    "topic": "Kiberhujum turlari",
+    "question": "Phishing hujumi nimani anglatadi?",
+    "options": {
+      "A": "Ma’lumotlarni shifrlash",
+      "B": "Elektron pochtada soxta havola yuborish",
+      "C": "Tarmoqni bloklash",
+      "D": "Kompyuterni qayta ishga tushirish"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 4,
+    "level": "talaba",
+    "topic": "Autentifikatsiya",
+    "question": "Ikki faktorli autentifikatsiya qanday ishlaydi?",
+    "options": {
+      "A": "Foydalanuvchi faqat parol kiritadi",
+      "B": "Parol va qo‘shimcha tasdiqlash kodi orqali",
+      "C": "Faqat biometrik ma’lumot bilan",
+      "D": "Avtomatik tizim orqali"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 5,
+    "level": "talaba",
+    "topic": "Tarmoq xavfsizligi",
+    "question": "VPN texnologiyasining asosiy vazifasi nima?",
+    "options": {
+      "A": "Internet tezligini oshirish",
+      "B": "Shifrlangan ulanish yaratish",
+      "C": "Reklamalarni to‘sish",
+      "D": "Viruslarni aniqlash"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 6,
+    "level": "talaba",
+    "topic": "Zararli dasturlar",
+    "question": "Ransomware qanday zarar keltiradi?",
+    "options": {
+      "A": "Ma’lumotlarni o‘chiradi",
+      "B": "Ma’lumotlarni shifrlab, to‘lov talab qiladi",
+      "C": "Kompyuterni tezlashtiradi",
+      "D": "Foydalanuvchini tizimdan chiqaradi"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 7,
+    "level": "talaba",
+    "topic": "Axborot xavfsizligi",
+    "question": "Axborot xavfsizligining asosiy tamoyili qaysi?",
+    "options": {
+      "A": "Tezkorlik",
+      "B": "Maxfiylik, butunlik va mavjudlik",
+      "C": "Narx va sifat",
+      "D": "Internetga ulanish tezligi"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 8,
+    "level": "talaba",
+    "topic": "Parollar xavfsizligi",
+    "question": "Kuchli parol qanday bo‘ladi?",
+    "options": {
+      "A": "Faqat raqamlardan iborat",
+      "B": "8 tadan ko‘p belgidan iborat, harflar, raqam va belgilar mavjud",
+      "C": "Foydalanuvchi ismidan iborat",
+      "D": "Oddiy so‘zdan tashkil topgan"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 9,
+    "level": "talaba",
+    "topic": "Tarmoq hujumlari",
+    "question": "DDoS hujumi qanday amalga oshiriladi?",
+    "options": {
+      "A": "Serverga juda ko‘p so‘rov yuboriladi",
+      "B": "Fayl tizimi o‘chiriladi",
+      "C": "Parol o‘g‘irlanadi",
+      "D": "Tarmoq shifrlanadi"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 10,
+    "level": "talaba",
+    "topic": "Zararli dasturlar",
+    "question": "Spyware dasturi nima qiladi?",
+    "options": {
+      "A": "Kompyuterni himoya qiladi",
+      "B": "Foydalanuvchi faoliyatini yashirin kuzatadi",
+      "C": "Internet tezligini oshiradi",
+      "D": "Viruslarni tozalaydi"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 11,
+    "level": "talaba",
+    "topic": "Xavfsizlik siyosati",
+    "question": "Xavfsizlik siyosati nimani anglatadi?",
+    "options": {
+      "A": "Tarmoq tezligini nazorat qilish qoidasi",
+      "B": "Axborotni himoya qilish qoidalari to‘plami",
+      "C": "Tizimni yangilash jarayoni",
+      "D": "Antivirus o‘rnatish bosqichi"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 12,
+    "level": "talaba",
+    "topic": "Tarmoq xavfsizligi",
+    "question": "MAC manzil nima?",
+    "options": {
+      "A": "Kompyuter IP manzili",
+      "B": "Tarmoq kartasining unikal manzili",
+      "C": "Fayl nomi",
+      "D": "Server domeni"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 13,
+    "level": "talaba",
+    "topic": "Internet xavfsizligi",
+    "question": "SSL sertifikati nimani ta’minlaydi?",
+    "options": {
+      "A": "Veb-saytning chiroyli dizaynini",
+      "B": "Saytga xavfsiz ulanishni",
+      "C": "Sayt tezligini oshirishni",
+      "D": "Foydalanuvchini reklamalardan himoya qilishni"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 14,
+    "level": "talaba",
+    "topic": "Axborot himoyasi",
+    "question": "Ma’lumotlarni zaxiralash nima uchun kerak?",
+    "options": {
+      "A": "Fayl hajmini kamaytirish uchun",
+      "B": "Yo‘qolgan ma’lumotni qayta tiklash uchun",
+      "C": "Internetni tezlashtirish uchun",
+      "D": "Shifrlash uchun"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 15,
+    "level": "talaba",
+    "topic": "Kiberxavfsizlik asoslari",
+    "question": "Social Engineering nima?",
+    "options": {
+      "A": "Tarmoqni boshqarish",
+      "B": "Insonlarni aldab ma’lumot olish usuli",
+      "C": "Serverlarni himoya qilish tizimi",
+      "D": "Tarmoq protokoli"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 16,
+    "level": "talaba",
+    "topic": "Autentifikatsiya",
+    "question": "Biometrik autentifikatsiya misoli qaysi?",
+    "options": {
+      "A": "Foydalanuvchi nomi kiritish",
+      "B": "Parol bilan kirish",
+      "C": "Barmoq izi yoki yuzni tanish",
+      "D": "SMS orqali kod yuborish"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 17,
+    "level": "talaba",
+    "topic": "Kiberhujum turlari",
+    "question": "Brute force hujumi nimani anglatadi?",
+    "options": {
+      "A": "Tarmoqni to‘sib qo‘yish",
+      "B": "Parolni taxmin qilish orqali buzish",
+      "C": "Serverni o‘chirib tashlash",
+      "D": "Shifrlashni bekor qilish"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 18,
+    "level": "talaba",
+    "topic": "Axborot xavfsizligi",
+    "question": "Malware so‘zining ma’nosi nima?",
+    "options": {
+      "A": "Zararli dastur",
+      "B": "Xavfsiz fayl",
+      "C": "Zaxira nusxa",
+      "D": "Server manzili"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 19,
+    "level": "talaba",
+    "topic": "Tarmoq xavfsizligi",
+    "question": "Proxy server nima vazifani bajaradi?",
+    "options": {
+      "A": "Ma’lumot uzatishni tezlashtiradi",
+      "B": "Foydalanuvchi va internet o‘rtasida vositachilik qiladi",
+      "C": "Viruslarni tozalaydi",
+      "D": "Tarmoqni shifrlaydi"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 20,
+    "level": "talaba",
+    "topic": "Axborot xavfsizligi",
+    "question": "Backup nusxalarini qayerda saqlash eng xavfsiz?",
+    "options": {
+      "A": "O‘sha kompyuterda",
+      "B": "Bulutli xotirada yoki tashqi diskda",
+      "C": "Ijtimoiy tarmoqlarda",
+      "D": "Foydalanuvchi elektron pochtasida"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 21,
+    "level": "talaba",
+    "topic": "Xavfsizlik protokollari",
+    "question": "SSH protokoli nimani ta’minlaydi?",
+    "options": {
+      "A": "Masofaviy xavfsiz ulanishni",
+      "B": "Internet tezligini oshirishni",
+      "C": "Fayllarni siqishni",
+      "D": "Ma’lumotlarni ochiq uzatishni"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 22,
+    "level": "talaba",
+    "topic": "Internet xavfsizligi",
+    "question": "Spam xabarlari nima?",
+    "options": {
+      "A": "Maxsus parollar",
+      "B": "Keraksiz reklama va xatlar",
+      "C": "Antivirus yangilanishlari",
+      "D": "Shifrlangan ma’lumotlar"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 23,
+    "level": "talaba",
+    "topic": "Tarmoq xavfsizligi",
+    "question": "IDS tizimi nima qiladi?",
+    "options": {
+      "A": "Tarmoqdagi hujumlarni aniqlaydi",
+      "B": "Fayllarni siqadi",
+      "C": "Serverlarni o‘chiradi",
+      "D": "Ma’lumotni shifrlaydi"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 24,
+    "level": "talaba",
+    "topic": "Axborot himoyasi",
+    "question": "Ma’lumotlarni shifrlashda kalit nima uchun kerak?",
+    "options": {
+      "A": "Fayl nomini o‘zgartirish uchun",
+      "B": "Shifrlangan ma’lumotni ochish yoki yaratish uchun",
+      "C": "Ma’lumotni tez uzatish uchun",
+      "D": "Zaxira nusxa olish uchun"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 25,
+    "level": "talaba",
+    "topic": "Kiberxavfsizlik asoslari",
+    "question": "Zero-day zaiflik nimani bildiradi?",
+    "options": {
+      "A": "Oldindan ma’lum bo‘lgan xatolik",
+      "B": "Yangi aniqlangan, hali tuzatilmagan zaiflik",
+      "C": "Antivirus yangilanishi",
+      "D": "Tarmoq parolini o‘zgartirish"
+    },
+    "correct": "B"
+  }
+]

@@ -1,0 +1,327 @@
+[
+  {
+    "id": 1,
+    "level": "talaba",
+    "topic": "Texnik himoya va xavfsizlik protokollari",
+    "question": "Quyidagi protokollardan qaysi biri ma'lumotlarni shifrlash uchun ishlatiladi?",
+    "options": {
+      "A": "HTTP",
+      "B": "HTTPS",
+      "C": "FTP",
+      "D": "SMTP"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 2,
+    "level": "talaba",
+    "topic": "Tarmoq xavfsizligi",
+    "question": "Firewallning asosiy vazifasi nima?",
+    "options": {
+      "A": "Viruslarni yo‘qotish",
+      "B": "Tarmoqni filtrlash va ruxsatlarni boshqarish",
+      "C": "Ma’lumotlarni zaxiralash",
+      "D": "Fayllarni shifrlash"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 3,
+    "level": "talaba",
+    "topic": "Axborot xavfsizligi",
+    "question": "Phishing hujumi deganda nima tushuniladi?",
+    "options": {
+      "A": "Kompyuter virusini ishga tushirish",
+      "B": "Soxta sayt orqali foydalanuvchi ma’lumotlarini o‘g‘irlash",
+      "C": "Tarmoqni to‘sib qo‘yish",
+      "D": "Serverni buzish"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 4,
+    "level": "talaba",
+    "topic": "Shifrlash texnologiyalari",
+    "question": "AES algoritmi qaysi turdagi shifrlashga kiradi?",
+    "options": {
+      "A": "Assimetrik",
+      "B": "Simmetrik",
+      "C": "Hashlash",
+      "D": "Teskari shifrlash"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 5,
+    "level": "talaba",
+    "topic": "Tarmoq xavfsizligi",
+    "question": "VPN texnologiyasining asosiy maqsadi nima?",
+    "options": {
+      "A": "Internet tezligini oshirish",
+      "B": "Tarmoqdagi ma’lumotlarni shifrlab uzatish",
+      "C": "IP manzilni o‘zgartirish",
+      "D": "Serverlarni avtomatik yangilash"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 6,
+    "level": "talaba",
+    "topic": "Kiberxavfsizlik asoslari",
+    "question": "Quyidagilardan qaysi biri zararli dastur turiga kirmaydi?",
+    "options": {
+      "A": "Trojan",
+      "B": "Worm",
+      "C": "Antivirus",
+      "D": "Spyware"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 7,
+    "level": "talaba",
+    "topic": "Xavfsizlik siyosati",
+    "question": "Parol siyosatida eng muhim tamoyil qaysi?",
+    "options": {
+      "A": "Qisqa va esda qoladigan parol ishlatish",
+      "B": "Murakkab va noyob parol ishlatish",
+      "C": "Barcha joyda bir xil parol qo‘llash",
+      "D": "Parolni hech qachon o‘zgartirmaslik"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 8,
+    "level": "talaba",
+    "topic": "Internet xavfsizligi",
+    "question": "HTTPS protokolida 'S' harfi nimani bildiradi?",
+    "options": {
+      "A": "Secure",
+      "B": "Simple",
+      "C": "System",
+      "D": "Service"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 9,
+    "level": "talaba",
+    "topic": "Axborot himoyasi",
+    "question": "Two-factor authentication (2FA) nimani anglatadi?",
+    "options": {
+      "A": "Ikki martalik tizimga kirish jarayoni",
+      "B": "Ikki bosqichli tasdiqlash",
+      "C": "Ikki xil foydalanuvchi uchun kirish",
+      "D": "Ikki tarmoqni birlashtirish"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 10,
+    "level": "talaba",
+    "topic": "Viruslar va himoya",
+    "question": "Antivirus dasturining asosiy vazifasi nima?",
+    "options": {
+      "A": "Internet tezligini oshirish",
+      "B": "Zararli dasturlarni aniqlash va yo‘qotish",
+      "C": "Ma’lumotlarni siqish",
+      "D": "Tarmoqni kengaytirish"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 11,
+    "level": "talaba",
+    "topic": "Tarmoq hujumlari",
+    "question": "DDoS hujumi nimani anglatadi?",
+    "options": {
+      "A": "Serverga bir vaqtning o‘zida ko‘p so‘rov yuborish orqali uni ishdan chiqarish",
+      "B": "Foydalanuvchi ma’lumotlarini o‘g‘irlash",
+      "C": "Tarmoqni shifrlash",
+      "D": "Fayllarni tahrirlash"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 12,
+    "level": "talaba",
+    "topic": "Xavfsizlik protokollari",
+    "question": "SSH protokoli qaysi maqsadda ishlatiladi?",
+    "options": {
+      "A": "Veb sahifalarni ko‘rish",
+      "B": "Masofadan xavfsiz ulanish",
+      "C": "Fayllarni siqish",
+      "D": "Elektron pochta jo‘natish"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 13,
+    "level": "talaba",
+    "topic": "Ma’lumotlarni himoyalash",
+    "question": "Hash funksiyasi nima uchun ishlatiladi?",
+    "options": {
+      "A": "Ma’lumotlarni o‘qish uchun",
+      "B": "Ma’lumotlarni shifrlashsiz yuborish uchun",
+      "C": "Ma’lumotlarning yaxlitligini tekshirish uchun",
+      "D": "Fayllarni nusxalash uchun"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 14,
+    "level": "talaba",
+    "topic": "Kiberxavfsizlik vositalari",
+    "question": "IDS (Intrusion Detection System) nima qiladi?",
+    "options": {
+      "A": "Hujumlarni aniqlaydi",
+      "B": "Tarmoqni kengaytiradi",
+      "C": "Viruslarni yaratadi",
+      "D": "Ma’lumotlarni shifrlaydi"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 15,
+    "level": "talaba",
+    "topic": "Kirish nazorati",
+    "question": "Biometrik autentifikatsiya misoli qaysi?",
+    "options": {
+      "A": "Parol kiritish",
+      "B": "Yuzni aniqlash",
+      "C": "SMS orqali tasdiqlash",
+      "D": "Email orqali kirish"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 16,
+    "level": "talaba",
+    "topic": "Kiberhujum turlari",
+    "question": "Social engineering nima?",
+    "options": {
+      "A": "Texnik nosozliklarni bartaraf etish usuli",
+      "B": "Insonlarni aldagan holda maxfiy ma’lumot olish usuli",
+      "C": "Internet tezligini oshirish usuli",
+      "D": "Ma’lumotlarni siqish usuli"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 17,
+    "level": "talaba",
+    "topic": "Elektron pochta xavfsizligi",
+    "question": "Spam nima?",
+    "options": {
+      "A": "Zararli fayl turi",
+      "B": "Keraksiz elektron xabarlar",
+      "C": "Shifrlangan fayl",
+      "D": "Internet protokoli"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 18,
+    "level": "talaba",
+    "topic": "Shaxsiy ma’lumotlarni himoya qilish",
+    "question": "GDPR qaysi mintaqada amal qiladi?",
+    "options": {
+      "A": "Osiyo",
+      "B": "Yevropa Ittifoqi",
+      "C": "Afrika",
+      "D": "Shimoliy Amerika"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 19,
+    "level": "talaba",
+    "topic": "Tarmoq xavfsizligi",
+    "question": "Proxy serverning vazifasi nima?",
+    "options": {
+      "A": "Ma’lumot uzatishni tezlashtirish va yashirish",
+      "B": "Fayllarni shifrlash",
+      "C": "Tarmoqni to‘xtatish",
+      "D": "Viruslarni aniqlash"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 20,
+    "level": "talaba",
+    "topic": "Foydalanuvchi xavfsizligi",
+    "question": "Parolni boshqarish uchun qaysi dastur ishlatiladi?",
+    "options": {
+      "A": "Antivirus",
+      "B": "Password Manager",
+      "C": "Firewall",
+      "D": "Browser"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 21,
+    "level": "talaba",
+    "topic": "Zararli dasturlar",
+    "question": "Ransomware nima qiladi?",
+    "options": {
+      "A": "Ma’lumotlarni shifrlab, to‘lov talab qiladi",
+      "B": "Ma’lumotlarni o‘chiradi",
+      "C": "Tarmoqni kengaytiradi",
+      "D": "Internet tezligini pasaytiradi"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 22,
+    "level": "talaba",
+    "topic": "Axborot xavfsizligi",
+    "question": "Quyidagilardan qaysi biri maxfiylik tamoyiliga kiradi?",
+    "options": {
+      "A": "Foydalanuvchi identifikatsiyasi",
+      "B": "Ma’lumotlarga faqat ruxsatli shaxs kirishi",
+      "C": "Server tezligini oshirish",
+      "D": "Tarmoqni kengaytirish"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 23,
+    "level": "talaba",
+    "topic": "Tarmoq xavfsizligi",
+    "question": "MAC manzil nima uchun ishlatiladi?",
+    "options": {
+      "A": "Kompyuterning tarmoqdagi noyob identifikatori sifatida",
+      "B": "IP manzilni shifrlash uchun",
+      "C": "Fayl formatini aniqlash uchun",
+      "D": "DNS bilan bog‘lanish uchun"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 24,
+    "level": "talaba",
+    "topic": "Autentifikatsiya",
+    "question": "Login va parol orqali tizimga kirish qaysi jarayon?",
+    "options": {
+      "A": "Avtorizatsiya",
+      "B": "Autentifikatsiya",
+      "C": "Identifikatsiya",
+      "D": "Verifikatsiya"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 25,
+    "level": "talaba",
+    "topic": "Kiberxavfsizlik asoslari",
+    "question": "Kiberxavfsizlikning asosiy maqsadi nima?",
+    "options": {
+      "A": "Internet tezligini oshirish",
+      "B": "Axborotning maxfiyligi, yaxlitligi va mavjudligini ta’minlash",
+      "C": "Yangi dasturlar yaratish",
+      "D": "Tarmoqni kengaytirish"
+    },
+    "correct": "B"
+  }
+]

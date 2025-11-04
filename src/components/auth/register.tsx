@@ -2,7 +2,7 @@ import { auth } from '@/firebase';
 import { registerSchema } from '@/lib/validation';
 import { useAuthState } from '@/stores/auth.store';
 import { zodResolver } from '@hookform/resolvers/zod';
-import { createUserWithEmailAndPassword } from 'firebase/auth';
+import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth';
 import { AlertCircle } from 'lucide-react';
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
@@ -15,117 +15,191 @@ import {
   FormControl,
   FormField,
   FormItem,
-  FormLabel,
   FormMessage,
 } from '../ui/form';
 import { Input } from '../ui/input';
-import { Separator } from '../ui/separator';
 
 const Register = () => {
- const { setAuth } = useAuthState()
+  const { setAuth } = useAuthState();
 
- const [isLoading, SetIsLoading] = useState(false)
- const [error, setError] = useState('')
+  const [isLoading, SetIsLoading] = useState(false);
+  const [error, setError] = useState('');
 
- const navigate = useNavigate()
+  const navigate = useNavigate();
 
- const form = useForm<z.infer<typeof registerSchema>>({
-  resolver: zodResolver(registerSchema),
-  defaultValues: { email: '', passowrd: '' },
- })
+  const form = useForm<z.infer<typeof registerSchema>>({
+    resolver: zodResolver(registerSchema),
+    defaultValues: {
+      firstName: '',
+      lastName: '',
+      email: '',
+      passowrd: '',
+      confirmPassword: '',
+    },
+  });
 
- const onSubmit = async (values: z.infer<typeof registerSchema>) => {
-    const { email, passowrd } = values
+  const onSubmit = async (values: z.infer<typeof registerSchema>) => {
+    const { firstName, lastName, email, passowrd } = values;
 
-    SetIsLoading(true)
+    SetIsLoading(true);
+    setError('');
 
     try {
-     const response = await createUserWithEmailAndPassword(
-        auth,
-        email,
-        passowrd
-     )
-     navigate('/')
+      const response = await createUserWithEmailAndPassword(auth, email, passowrd);
+      
+      // Foydalanuvchi profiliga ism va familiya qo‘shish
+      await updateProfile(response.user, {
+        displayName: `${firstName} ${lastName}`,
+      });
+
+      navigate('/');
     } catch (error) {
-     const result = error as Error
-     setError(result.message)
+      const result = error as Error;
+      setError(result.message);
     } finally {
-     SetIsLoading(false)
+      SetIsLoading(false);
     }
- }
+  };
 
- return (
-  <div className='flex flex-col'>
-    <h2 className='text-xl font-bold'>Ro'yxatdan o'tish</h2>
-    <p className='text-muted-foreground'>
-     Allaqachon hisobingiz bormi?{' '}
-     <span
-      className='text-blue-500 cursor-pointer hover:underline'
-      onClick={() => setAuth('login')}
-     >
-      Kirish
-     </span>
-    </p>
-   <Separator className='my-3' />
-   {error && (
-        <Alert variant='destructive'>
-         <AlertCircle className='h-4 w-4' />
-         <AlertTitle>Xato!</AlertTitle>
-         <AlertDescription>{error}</AlertDescription>
+  return (
+    <div className="flex flex-col space-y-4">
+      {error && (
+        <Alert variant="destructive" className="mb-4">
+          <AlertCircle className="h-4 w-4" />
+          <AlertTitle>Xato!</AlertTitle>
+          <AlertDescription>{error}</AlertDescription>
         </Alert>
-   )}
-   <Form {...form}>
-    <form onSubmit={form.handleSubmit(onSubmit)} className='space-y-2'>
-     <FormField
-      control={form.control}
-      name='email'
-      render={({ field }) => (
-       <FormItem>
-    <FormLabel>Elektron pochta</FormLabel>
-        <FormControl>
-         <Input placeholder='misol@gmail.com' disabled={isLoading} {...field} />
-        </FormControl>
-        <FormMessage />
-       </FormItem>
       )}
-     />
-     <div className='grid grid-cols-2 gap-2'>
-      <FormField
-       control={form.control}
-       name='passowrd'
-       render={({ field }) => (
-        <FormItem>
-         <FormLabel>Parol</FormLabel>
-         <FormControl>
-          <Input placeholder='*****' type='password' disabled={isLoading} {...field} />
-         </FormControl>
-         <FormMessage />
-        </FormItem>
-       )}
-      />
-      <FormField
-       control={form.control}
-       name='confirmPassword'
-       render={({ field }) => (
-        <FormItem>
-         <FormLabel>Parolni tasdiqlang</FormLabel>
-         <FormControl>
-          <Input placeholder='*****' type='password' disabled={isLoading} {...field} />
-         </FormControl>
-         <FormMessage />
-        </FormItem>
-       )}
-      />
-     </div>
-     <div>
-    <Button type='submit' className='h-12 w-full mt-2'>
-     Ro'yxatdan o'tish
-    </Button>
-     </div>
-    </form>
-   </Form>
-  </div>
- )
-}
 
-export default Register
+      <Form {...form}>
+        <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
+
+          {/* Ism */}
+          <FormField
+            control={form.control}
+            name="firstName"
+            render={({ field }) => (
+              <FormItem>
+                <FormControl>
+                  <Input
+                    className="h-12 rounded-full border border-gray-600 bg-gray-800 text-white placeholder:text-gray-400 text-base px-5 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
+                    placeholder="Ismingizni kiriting"
+                    disabled={isLoading}
+                    {...field}
+                  />
+                </FormControl>
+                <FormMessage className="text-xs text-red-400 px-5" />
+              </FormItem>
+            )}
+          />
+
+          {/* Familiya */}
+          <FormField
+            control={form.control}
+            name="lastName"
+            render={({ field }) => (
+              <FormItem>
+                <FormControl>
+                  <Input
+                    className="h-12 rounded-full border border-gray-600 bg-gray-800 text-white placeholder:text-gray-400 text-base px-5 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
+                    placeholder="Familiyangizni kiriting"
+                    disabled={isLoading}
+                    {...field}
+                  />
+                </FormControl>
+                <FormMessage className="text-xs text-red-400 px-5" />
+              </FormItem>
+            )}
+          />
+
+          {/* Email */}
+          <FormField
+            control={form.control}
+            name="email"
+            render={({ field }) => (
+              <FormItem>
+                <FormControl>
+                  <Input
+                    className="h-12 rounded-full border border-gray-600 bg-gray-800 text-white placeholder:text-gray-400 text-base px-5 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
+                    placeholder="Email kiriting"
+                    disabled={isLoading}
+                    {...field}
+                  />
+                </FormControl>
+                <FormMessage className="text-xs text-red-400 px-5" />
+              </FormItem>
+            )}
+          />
+
+          {/* Parol */}
+          <FormField
+            control={form.control}
+            name="passowrd"
+            render={({ field }) => (
+              <FormItem>
+                <FormControl>
+                  <Input
+                    className="h-12 rounded-full border border-gray-600 bg-gray-800 text-white placeholder:text-gray-400 text-base px-5 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
+                    placeholder="Parol kiriting"
+                    type="password"
+                    disabled={isLoading}
+                    {...field}
+                  />
+                </FormControl>
+                <FormMessage className="text-xs text-red-400 px-5" />
+              </FormItem>
+            )}
+          />
+
+          {/* Parolni tasdiqlash */}
+          <FormField
+            control={form.control}
+            name="confirmPassword"
+            render={({ field }) => (
+              <FormItem>
+                <FormControl>
+                  <Input
+                    className="h-12 rounded-full border border-gray-600 bg-gray-800 text-white placeholder:text-gray-400 text-base px-5 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
+                    placeholder="Parolni tasdiqlang"
+                    type="password"
+                    disabled={isLoading}
+                    {...field}
+                  />
+                </FormControl>
+                <FormMessage className="text-xs text-red-400 px-5" />
+              </FormItem>
+            )}
+          />
+
+          {/* Tugma */}
+          <div>
+            <Button
+              type="submit"
+              className="h-12 w-full mt-6 text-lg font-semibold rounded-full shadow-lg transition-all duration-300 text-white"
+              disabled={isLoading}
+              style={{
+                background: 'linear-gradient(90deg, #0072ff, #00c6ff)',
+                border: 'none',
+              }}
+            >
+              {isLoading ? 'Yuklanmoqda...' : "Ro'yxatdan o'tish"}
+            </Button>
+          </div>
+
+          {/* Login link */}
+          <div className="pt-2 text-center">
+            <button
+              type="button"
+              className="text-sm text-blue-400 hover:text-blue-300 transition-colors"
+              onClick={() => setAuth('login')}
+            >
+              Allaqachon hisobingiz bormi? Kirish
+            </button>
+          </div>
+        </form>
+      </Form>
+    </div>
+  );
+};
+
+export default Register;

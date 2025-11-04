@@ -1,11 +1,22 @@
 import { Button } from "@/components/ui/button";
 
+interface Mistake {
+  question: string;
+  yourAnswer: string;
+  correct: string;
+}
+
 interface MistakePageProps {
-  mistakes: any[];
+  mistakes: Mistake[];
   onBack: () => void;
 }
 
 const MistakePage: React.FC<MistakePageProps> = ({ mistakes, onBack }) => {
+  // Faqat noto‘g‘ri javoblarni ajratib olamiz
+  const wrongAnswers = mistakes.filter(
+    (m) => m.yourAnswer !== m.correct && m.yourAnswer !== ""
+  );
+
   return (
     <div className="w-full min-h-screen flex flex-col items-center bg-gray-50 dark:bg-gray-900 px-4 py-6 sm:px-6 lg:px-8">
       <div className="w-full max-w-3xl bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-4 sm:p-6 md:p-8">
@@ -13,10 +24,10 @@ const MistakePage: React.FC<MistakePageProps> = ({ mistakes, onBack }) => {
           Xatolar
         </h2>
 
-        {/* Xatolar ro‘yxati */}
+        {/* Faqat xatolarni ko‘rsatamiz */}
         <div className="space-y-4 overflow-y-auto max-h-[70vh] scrollbar-thin scrollbar-thumb-gray-400 dark:scrollbar-thumb-gray-700">
-          {mistakes.length > 0 ? (
-            mistakes.map((m, i) => (
+          {wrongAnswers.length > 0 ? (
+            wrongAnswers.map((m, i) => (
               <div
                 key={i}
                 className="p-4 bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-gray-100 rounded-xl shadow-sm hover:shadow-md transition-all duration-200"
@@ -25,15 +36,23 @@ const MistakePage: React.FC<MistakePageProps> = ({ mistakes, onBack }) => {
                   {i + 1}. {m.question}
                 </p>
                 <p className="text-sm sm:text-base mt-1">
-                  <span className="font-medium text-red-500">Sizning javobingiz:</span> {m.yourAnswer}
+                  <span className="font-medium text-red-500">
+                    Sizning javobingiz:
+                  </span>{" "}
+                  {m.yourAnswer}
                 </p>
                 <p className="text-sm sm:text-base mt-1">
-                  <span className="font-medium text-green-600">To‘g‘ri javob:</span> {m.correct}
+                  <span className="font-medium text-green-600">
+                    To‘g‘ri javob:
+                  </span>{" "}
+                  {m.correct}
                 </p>
               </div>
             ))
           ) : (
-            <p className="text-center text-gray-500 dark:text-gray-400">Xatolar mavjud emas 🎉</p>
+            <p className="text-center text-gray-500 dark:text-gray-400">
+              Ajoyib! Siz barcha savollarga to‘g‘ri javob berdingiz 🎉
+            </p>
           )}
         </div>
 

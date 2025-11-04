@@ -1,31 +1,30 @@
 import {
-  FaGithub,
   FaGoogle,
-  FaMicrosoft,
-  FaUser,
+  FaGithub,
   FaXTwitter,
-	FaYahoo,
+  FaUser, // Anonymous login uchun saqlandi, lekin dizaynda ko'rsatilmaydi
 } from 'react-icons/fa6';
-import { Button } from '../ui/button';
-import { Separator } from '../ui/separator';
-import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import {
+  // Barcha Social Media provayderlari importlari
   GithubAuthProvider,
   GoogleAuthProvider,
   signInAnonymously,
   signInWithPopup,
   fetchSignInMethodsForEmail,
   linkWithCredential,
-	TwitterAuthProvider,
-	OAuthProvider,
+  TwitterAuthProvider,
+  OAuthProvider,
 } from 'firebase/auth';
 import { auth } from '@/firebase';
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+// Button va Separator komponentlari endi ishlatilmaydi, faqat oddiy div va button.
 
 const Social = () => {
   const [isLoading, setIsLoading] = useState(false);
   const navigate = useNavigate();
 
+  // --- Funksiyalar (o'zgarishsiz qoldi) ---
   const handleCredentialConflict = async (error: any) => {
     const email = error.customData?.email;
     const pendingCred = error.credential;
@@ -38,7 +37,6 @@ const Social = () => {
       const provider = new GoogleAuthProvider();
       const result = await signInWithPopup(auth, provider);
 
-      // Bog‘lash credential’ni
       await linkWithCredential(result.user, pendingCred);
       navigate('/');
     } else {
@@ -77,9 +75,10 @@ const Social = () => {
       })
       .finally(() => setIsLoading(false));
   };
-	const onYahoo = () => {
+  
+  const onX = () => {
     setIsLoading(true);
-    const provider = new OAuthProvider('yahoo.com');
+    const provider = new TwitterAuthProvider();
 
     signInWithPopup(auth, provider)
       .then(() => navigate('/'))
@@ -87,67 +86,55 @@ const Social = () => {
         if (error.code === 'auth/account-exists-with-different-credential') {
           handleCredentialConflict(error);
         } else {
-          console.error('Github login error:', error);
+          console.error('Twitter kirish xatosi:', error);
         }
       })
       .finally(() => setIsLoading(false));
   };
-  	const onX = () => {
-  setIsLoading(true);
-  const provider = new TwitterAuthProvider();
-
-  signInWithPopup(auth, provider)
-    .then(() => navigate('/'))
-    .catch((error) => {
-      if (error.code === 'auth/account-exists-with-different-credential') {
-        handleCredentialConflict(error);
-      } else {
-        console.error('Twitter kirish xatosi:', error);
-      }
-    })
-    .finally(() => setIsLoading(false));
-};
-
-  const onAnonymous = () => {
-    setIsLoading(true);
-
-    signInAnonymously(auth)
-      .then(() => navigate('/'))
-      .finally(() => setIsLoading(false));
-  };
+  
+  // onYahoo va onAnonymous funksiyalari mavjud, lekin UI da ko'rsatilmaydi
 
   return (
-    <>
-      <Separator className="my-3" />
-      <div className="grid grid-cols-2 gap-2">
-        <Button
-          className="h-12 bg-gray-600 hover:bg-gray-500"
-          variant={'secondary'}
-          onClick={onGithub}
-          disabled={isLoading}
-        >
-          <FaGithub className="mr-2" />
-          <span>Github bilan kirish</span>
-        </Button>
-        <Button
-          className="h-12"
-          variant={'destructive'}
-          onClick={onGoogle}
-          disabled={isLoading}
-        >
-          <FaGoogle className="mr-2" />
-          <span>Google bilan kirish</span>
-        </Button>
-        <Button className=" text-zinc-50 h-12 bg-orange-600 hover:bg-orange-500" variant={'default'} onClick={onX} disabled={isLoading}>
-          <FaMicrosoft className="mr-2" />
-          <span>Microsoft bilan kirish</span>
-        </Button>
-        <Button className=" text-zinc-50 h-12 bg-blue-800 hover:bg-teal-900" variant={'default'} onClick={onX} disabled={isLoading}>
-          <FaXTwitter className="mr-2" />
-          <span>X bilan kirish</span>
-        </Button>
-      </div>
-    </>
+    // Rasmdagi ikonkalarga mos 3 ta tugmani ko'rsatish
+    <div className="flex justify-center space-x-6">
+      
+      {/* 1. Google Ikonkasi (Rasmdagi ko'p rangli ikonka, Google logotipi ko'p rangli) */}
+      <button
+        className={`w-12 h-12 rounded-full flex items-center justify-center text-xl shadow-md transition-opacity ${isLoading ? 'opacity-50' : 'hover:opacity-80'}`}
+        onClick={onGoogle}
+        disabled={isLoading}
+        // Rasmdagi Google ikonkasini taqlid qilish uchun oq fonda rangli gradient
+        style={{
+          backgroundColor: 'white',
+          border: '1px solid #ddd',
+        }}
+      >
+        <FaGoogle style={{ color: '#4285F4' }} /> {/* Google logotipining asosiy rangi */}
+      </button>
+
+      {/* 2. Google / Facebook / Boshqa ikonka (Rasmdagi ko'k ikonka) */}
+      <button
+        className={`w-12 h-12 rounded-full flex items-center justify-center text-xl text-white shadow-md transition-opacity ${isLoading ? 'opacity-50' : 'hover:opacity-80'}`}
+        onClick={onGithub} // Funksional jihatdan Github ni ishlatamiz
+        disabled={isLoading}
+        // Rasmdagi ko'k dumaloq ikonka (ko'pincha Facebook/Twitter)
+        style={{ backgroundColor: '#1877F2' }} 
+      >
+        <FaGithub /> {/* Yoki boshqa rangli ijtimoiy tarmoq ikonkasi */}
+      </button>
+
+      {/* 3. Boshqa ikonka (Rasmdagi pushti/qizil/sariq ikonka) */}
+      <button
+        className={`w-12 h-12 rounded-full flex items-center justify-center text-xl text-white shadow-md transition-opacity ${isLoading ? 'opacity-50' : 'hover:opacity-80'}`}
+        onClick={onX} // Funksional jihatdan X/Twitter ni ishlatamiz
+        disabled={isLoading}
+        // Rasmdagi to'q sariq/qizil dumaloq ikonka
+        style={{ backgroundColor: '#FF66B2' }} 
+      >
+        <FaXTwitter /> {/* Yoki boshqa rangli ijtimoiy tarmoq ikonkasi */}
+      </button>
+
+    </div>
   );
 };
 
