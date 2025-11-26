@@ -7,6 +7,7 @@ import Home from './pages/home';
 import TestRoutes from './components/shared/TestRoutes';
 import { useState } from 'react';
 import Videodarslar from './pages/video-lessons';
+import Menhaqimda from './pages/about'
 
 const App = () => {
   const [testResult, setTestResult] = useState<any>(null);
@@ -28,6 +29,7 @@ const App = () => {
             setMistakes={setMistakes}
           />
         } />
+        <Route path="/menhaqimda" element={<Menhaqimda/>}/>
       </Routes>
       <ChatWidget />
     </>

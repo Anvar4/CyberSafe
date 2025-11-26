@@ -41,4 +41,5 @@ export const navLinks = [
   { label: 'Videodarslar', path: '/videodarslar' },
   { label: 'Testlar', path: '/testlar' },
   { label: 'Qo‘llanmalar', path: '/qollanmalar' },
+   { label: 'Men haqimda', path: '/menhaqimda'}
 ]
